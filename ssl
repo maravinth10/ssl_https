@@ -5,4 +5,5 @@ cd /etc/nginx/ssl
 #to create ssl certificate
 openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/nginx/ssl/certtest.key -out /etcnginx/certtest.crt
 
+chmod 400 /etc/nginx/ssl/*
 
